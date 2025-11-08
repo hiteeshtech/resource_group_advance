@@ -1,0 +1,28 @@
+# Local .terraform directory (providers, modules, plugin binaries)
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log
+.terraform.lock.hcl
+crash.log
+
+# Ignore CLI plan output
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# IDE/editor directories
+.vscode/
+/.idea/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Other
+*.log
